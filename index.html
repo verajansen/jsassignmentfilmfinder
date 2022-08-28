@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+		<title>JS Assignment Filmfinder</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>JS Assigment Filmfinder</h1>
+		</header>
+
+		<nav>
+			<input type="radio" id="all-movie" name="film-filter" value="all-movie" />
+			<label for="all-movie">Nieuwste films, vanaf 2014</label>
+
+			<input type="radio" id="avenger" name="film-filter" value="avenger" />
+			<label for="avenger">Avengers Films</label>
+
+			<input type="radio" id="x-men" name="film-filter" value="x-men" />
+			<label for="x-men">X-Men Films</label>
+
+			<input type="radio" id="princess" name="film-filter" value="princess" />
+			<label for="princess">Princess Films</label>
+
+			<input type="radio" id="batman" name="film-filter" value="batman" />
+			<label for="batman">Batman Films</label>
+		</nav>
+
+		<div id="container">
+			<ul id="container-list"></ul>
+		</div>
+
+		<script type="text/javascript" src="movies.js" defer></script>
+		<script type="text/javascript" src="script.js" defer></script>
+	</body>
+</html>
